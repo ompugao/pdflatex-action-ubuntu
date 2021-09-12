@@ -1,16 +1,16 @@
 
-platex-action
+pdflatex-action
 
 ---
 
-[platex-action](https://github.com/tsukuba-mas/platex-action)はTeXファイルをコンパイルしてPDFを作成するGitHub Actionです。
+[pdflatex-action](https://github.com/tsukuba-mas/pdflatex-action)はTeXファイルをコンパイルしてPDFを作成するGitHub Actionです。
 
 ## Description
 
-platex-actionは、GitHub上であなたのTeXファイルをコンパイルし、`main.pdf`を作成します。  
+pdflatex-actionは、GitHub上であなたのTeXファイルをコンパイルし、`main.pdf`を作成します。  
 コンパイルしたいTeXファイルの名前は`LATEX_FILE_NAME`で指定します。  
 
-注意点として、platex-actionはTeXファイルのコンパイルならびにPDFの作成のみを行います。  
+注意点として、pdflatex-actionはTeXファイルのコンパイルならびにPDFの作成のみを行います。  
 GitHubの公式が作成している`Release Action`を併用することでコンパイルしたPDFを簡単にReleaseにアップロードできます。  
 
 ## Usage
@@ -44,7 +44,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Compile Tex File
         id: compile_tex_file
-        uses: tsukuba-mas/platex-action@main
+        uses: ompugao/pdflatex-action@main
         with:
           LATEX_FILE_NAME: "main.tex"
       # Create Release
