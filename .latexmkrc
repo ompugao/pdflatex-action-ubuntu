@@ -3,6 +3,7 @@
 
 # platex pdf-sync
 $latex = 'platex -synctex=1 -halt-on-error';
+$pdflatex  = 'pdflatex %O -synctex=1 -interaction=nonstopmode %S';
 
 # platex less-error-message
 $latex_silent = 'platex -synctex=1 -halt-on-error -interaction=batchmode';
