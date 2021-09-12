@@ -12,4 +12,4 @@ if [ ! -f .latexmkrc ]; then
 fi
 
 # make pdf
-latexmk $INPUT_LATEX_FILE_NAME
+latexmk -f -pdf $INPUT_LATEX_FILE_NAME
