@@ -1,6 +1,6 @@
-name: "platex Action"
-author: "mas-tsukuba"
-description: "Compile tex file with platex"
+name: "pdflatex Action"
+author: "ompugao"
+description: "Compile tex file with pdflatex"
 inputs:
   LATEX_FILE_NAME:
     description: "Compile Tex File"
