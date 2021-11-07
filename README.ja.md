@@ -3,7 +3,8 @@ pdflatex-action
 
 ---
 
-[pdflatex-action](https://github.com/tsukuba-mas/pdflatex-action)はTeXファイルをコンパイルしてPDFを作成するGitHub Actionです。
+[pdflatex-action](https://github.com/ompugao/pdflatex-action)はTeXファイルをコンパイルしてPDFを作成するGitHub Actionです。
+[platex-action](https://github.com/tsukuba-mas/platex-action)をフォークして作られています。
 
 ## Description
 
@@ -78,14 +79,14 @@ jobs:
 
 あとはGitHubにタグ`vX.X.X`をプッシュすると自動でGitHub ReleasesにPDFが作成されます。
 
-## Example
-
-[tsukuba-mas/how-to-revise](https://github.com/tsukuba-mas/how-to-revise)
-
 ## Licence
 
 [MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
 
-## Author
+## Original Author
 
 Tsukuba Multi Agent System Research Lab
+
+## Author
+
+Shohei Fujii
