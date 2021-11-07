@@ -1,7 +1,8 @@
-platex-action
+pdflatex-action
 ---
 
-[platex-action](https://github.com/tsukuba-mas/platex-action) is a GitHub Action that compiles TeX files and create the PDF.
+[pdflatex-action](https://github.com/ompugao/pdflatex-action) is a GitHub Action that compiles TeX files and create the PDF.
+This is originally forked from [platex-action](https://github.com/tsukuba-mas/platex-action).
 
 [Japanese README](README.ja.md)
 
@@ -44,7 +45,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Compile Tex File
         id: compile_tex_file
-        uses: tsukuba-mas/platex-action@main
+        uses: ompugao/pdflatex-action@main
         with:
           LATEX_FILE_NAME: "main.tex"
       # Create Release
